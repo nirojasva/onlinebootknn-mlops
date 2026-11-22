@@ -1,0 +1,16 @@
+{
+  "experiment_name": "spectral_online_anomaly_detection",
+  "n_runs": 5,
+  "window_sizes": [
+    60,
+    120,
+    240
+  ],
+  "cols_pos_smin": 1,
+  "cols_pos_smax": 2049,
+  "scenarios": null,
+  "methods": [
+    "ExactStorm",
+    "IForestASD"
+  ]
+}
